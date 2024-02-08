@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.main_header
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem 4rem;
+    align-items: center;
+    box-shadow: 0 .1rem 2px 0 grey ;
+    position: sticky;
+    top: 0;
+    background-color: burlywood;
+}
+
+body
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../index.png);
+    background-size: 100%;
+
+}
+
+.menu
+{
+    list-style: none;
+    display: flex;
+}
+
+
+
+.upper {
+    display: flex;
+    justify-content:cen;
+    align-items: center;
+    padding: 2.5rem 0.6rem;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-radius: 0px 0px 60px 60px;
+}
+
+a {
+
+    
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    transition-property: text-shadow;
+    transition-duration: 1s;
+}
+a:hover
+{
+text-shadow: 0px 0px 10px white;
+}
+
+.brand
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: teal;
+}
+
+.btn
+{
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+
+.about-us,.myfeed,.text
+{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.about-us:hover,.myfeed:hover,.text:hover
+{
+    opacity: 1;
+}
+
+
+.main
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+
+}
+.body-1
+{
+    margin-top:125px;
+    height: 10vh;
+    width: 30%;
+    box-shadow: 0 0 10px 2px olive;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: height;
+}
+.body-1:hover{
+    height: 70vh;
+}
+
+.heading
+{
+
+    font-size: 50px;
+    margin-left: 90px;
+    color: white;
+    text-shadow: 0px 0px 10px brown;
+}
+
+.content
+{
+    
+    color: rgb(0, 52, 103);
+    width: 80%;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.logo
+{
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 25px;
+    margin-left: 80px;
+}
+
+li {
+    margin: 10px 40px;
+    color: white;
+    font-size: 1.4rem;
+    transition-property: color, scale, border-bottom;
+    transition-duration: 0.5s;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  
+  li:hover {
+    color: teal;
+    border-bottom: 3px solid teal;
+    cursor: pointer;
+  }
+  
+  section>i {
+    scale: 1;    
+    margin-right: 10px;
+    transition-duration: 1s;
+    border-radius: 10px;
+    transition-property: scale,background-color,color;
+    padding: 5px;
+  }
+  section>i:hover
+  {
+    scale: 1.4;
+  }
+
+  .contact {
+    padding: 0 10px;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    margin: 10px 80px;
+    border-radius: 5px;
+  }
+  
+.con
+{
+    scale: 1.2;
+    font-weight: bold;
+    color: dodgerblue;
+    background-color: white;
+    box-shadow: 0 0 20px 5px white;
+    border-radius: 20px;
+    
+}
+
+
+.button {
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+  }
+  
+  .button:hover {
+    border-bottom: 3px solid white;
+    scale: 1.2;
+    cursor: pointer;
+  }
+  
+#gt:hover
+{
+    background-color: black;
+    color: white;
+}
+#ig:hover{
+    background-size: 100%;
+    background-image: url(./igbg.jpg);
+    color: white;
+}
+#fb:hover{
+
+    background-color: #1877F2;
+    color: white;
+}
+
+#ln:hover{
+
+    background-color: #0077B5;
+    color: white;
+}

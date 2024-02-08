@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../project/write.css" />
+    <title>Writes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <main>
+      <header class="main_header">
+        <section class="brand">
+            <span>Devnode.io</span>
+        </section>
+        <ul class="menu">
+            <li class="feed">Feed</li>
+            <li class="my-blog">My-Blogs</li>
+            <li class="about">About us</li>
+            <li class="contact">Contact</li>    
+        </ul>
+        <section >
+            <button class="button">Write &ThinSpace;<i class="fa-solid fa-pen-to-square"></i> </button>
+        </section>
+    </header>
+      <section>
+        <section class="blog">
+          <section>
+            <p class="title">Write a Blog</p>
+            <form class="main-form" action="">
+              <div>
+                <i class="fa-solid fa-heading"></i
+                ><input
+                  type="text"
+                  placeholder="Enter Your title"
+                  class="input"
+                  id="title_1"
+                />
+              </div>
+              <div>
+                <i class="fa-solid fa-file-invoice"></i>
+                <textarea
+                  type="text"
+                  placeholder="Enter Description"
+                  class="input"
+                  id="des"
+                  rows="5"
+                  cols="10"
+                >
+                </textarea>
+              </div>
+              <i class="fa-solid fa-link"></i>
+              <input
+                type="url"
+                class="input"
+                id="url"
+                placeholder="Enter Link"
+              />
+              <div>
+                <button class="btn" id="save">
+                  <i class="fa-solid fa-right-to-bracket"></i> Save
+                </button>
+              </div>
+            </form>
+          </section>
+          <section>
+            <img class="image" src="../placeholder.jpg" alt="" />
+          </section>
+        </section>
+      </section>
+    </main>
+    <script src="../project/write.js"></script>
+  </body>
+</html>
